@@ -19,7 +19,7 @@ namespace Shapes
 
         override public double Area()
         {
-            return x * y;
+            return this.length * this.width;
         }
 
         override public void Draw()
