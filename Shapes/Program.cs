@@ -11,7 +11,7 @@ namespace Shapes
 
             for (int number = 0; number < 10; number ++ )
             {
-                int randomNumber = rand.Next(5);
+                int randomNumber = rand.Next(7);
                 switch (randomNumber) {
                     case 0:
                         arrayOfShapes[number] = new Rect();
@@ -27,6 +27,12 @@ namespace Shapes
                         break;
                     case 4:
                         arrayOfShapes[number] = new Line();
+                        break;
+                    case 5:
+                        arrayOfShapes[number] = new HorizontalLine();
+                        break;
+                    case 6:
+                        arrayOfShapes[number] = new VerticalLine();
                         break;
                 }
             }
