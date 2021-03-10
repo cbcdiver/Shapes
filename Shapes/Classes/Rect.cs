@@ -7,7 +7,7 @@ namespace Shapes
     class Rect:Shape
     {
         public int length { get; set; }
-        public  int width { get; set; }
+        public int width { get; set; }
 
         public Rect(int x = 0, int y = 0, int length = 0, int width = 0): base(x, y)
         {
